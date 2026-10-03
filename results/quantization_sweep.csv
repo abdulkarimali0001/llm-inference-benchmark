@@ -1,0 +1,4 @@
+model,params,quant,num_ctx,prompt_tokens,output_tokens,prefill_tok_s,decode_tok_s,ttft_s,wall_s,ollama_memory_gb,kv_cache_gb_theory,effective_bandwidth_gb_s
+qwen2.5:1.5b-instruct-fp16,1.5B,F16,2048,916,28,1022.293,23.61,0.901,2.117,3.21,0.0587,74.4
+qwen2.5:1.5b-instruct-q8_0,1.5B,Q8_0,2048,916,28,992.079,45.562,0.926,1.577,1.763,0.0587,77.6
+qwen2.5:1.5b-instruct-q4_K_M,1.5B,Q4_K_M,2048,916,31,967.955,71.068,0.948,1.399,1.102,0.0587,74.2

@@ -1,0 +1,6 @@
+model,params,quant,num_ctx,prompt_tokens,output_tokens,prefill_tok_s,decode_tok_s,ttft_s,wall_s,ollama_memory_gb,kv_cache_gb_theory,effective_bandwidth_gb_s
+qwen2.5:1.5b-instruct-q4_K_M,1.5B,Q4_K_M,512,441,38,1001.87,63.374,0.441,1.05,1.057,0.0147,66.0
+qwen2.5:1.5b-instruct-q4_K_M,1.5B,Q4_K_M,1024,829,38,923.076,67.159,0.9,1.481,1.072,0.0294,70.0
+qwen2.5:1.5b-instruct-q4_K_M,1.5B,Q4_K_M,2048,1607,30,860.09,70.144,1.87,2.319,1.102,0.0587,73.2
+qwen2.5:1.5b-instruct-q4_K_M,1.5B,Q4_K_M,4096,3163,38,795.412,63.299,3.978,4.615,1.163,0.1174,66.2
+qwen2.5:1.5b-instruct-q4_K_M,1.5B,Q4_K_M,8192,6273,34,688.779,58.593,9.122,9.938,1.354,0.2349,65.6
